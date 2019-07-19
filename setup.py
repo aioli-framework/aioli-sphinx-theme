@@ -16,12 +16,12 @@ with codecs.open("README.rst", encoding="utf-8") as f:
 setup(
     name="aioli_sphinx_theme",
     version=version,
-    description="A configurable sidebar-enabled Sphinx theme",
+    description="Aioli Sphinx theme, based on Alabaster",
     long_description=readme,
-    author="Jeff Forcier",
-    author_email="jeff@bitprophet.org",
+    author="Robert Wikman",
+    author_email="rbw@vault13.org",
     url="https://alabaster.readthedocs.io",
     packages=["alabaster"],
     include_package_data=True,
-    entry_points={"sphinx.html_themes": ["aioli_sphinx_theme = alabaster"]},
+    entry_points={"sphinx.html_themes": ["aioli_sphinx_theme = aioli_sphinx_theme"]},
 )
