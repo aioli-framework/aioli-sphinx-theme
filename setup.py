@@ -22,6 +22,7 @@ setup(
     author_email="rbw@vault13.org",
     url="https://alabaster.readthedocs.io",
     packages=["alabaster"],
+    modules=["aioli_sphinx_theme"],
     include_package_data=True,
     entry_points={"sphinx.html_themes": ["aioli_sphinx_theme = aioli_sphinx_theme"]},
 )
